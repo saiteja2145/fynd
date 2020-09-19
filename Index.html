@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Birthday Cal</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400&display=swap"
+      rel="stylesheet"
+    />
+    <script src="./Index.js" defer type="module"></script>
+    <link rel="stylesheet" href="./Index.css" />
+  </head>
+  <body>
+    <div class="container">
+      <header class="header">
+        <h1>Birthday Cal</h1>
+      </header>
+      <section class="bithday__cards">
+        <div class="birthday__card">
+          <div class="card__header"><h4>MON</h4></div>
+          <div class="card__body" id="monday"></div>
+        </div>
+        <div class="birthday__card">
+          <div class="card__header">
+            <h4>TUE</h4>
+          </div>
+          <div class="card__body" id="tuesday"></div>
+        </div>
+        <div class="birthday__card">
+          <div class="card__header">
+            <h4>WED</h4>
+          </div>
+          <div class="card__body" id="wednesday"></div>
+        </div>
+        <div class="birthday__card">
+          <div class="card__header">
+            <h4>THU</h4>
+          </div>
+          <div class="card__body" id="thursday"></div>
+        </div>
+        <div class="birthday__card">
+          <div class="card__header">
+            <h4>FRI</h4>
+          </div>
+          <div class="card__body" id="friday"></div>
+        </div>
+        <div class="birthday__card">
+          <div class="card__header">
+            <h4>SAT</h4>
+          </div>
+          <div class="card__body" id="saturday"></div>
+        </div>
+        <div class="birthday__card">
+          <div class="card__header">
+            <h4>SUN</h4>
+          </div>
+          <div class="card__body" id="sunday"></div>
+        </div>
+      </section>
+      <section class="section__config">
+        <textarea id="text__area" class="text__area"></textarea>
+        <div class="config__right">
+          <h3 class="config__heading">Year</h3>
+          <input type="number" class="config__input" id="year" />
+          <button id="update" class="btn__primary">UPDATE</button>
+        </div>
+      </section>
+    </div>
+  </body>
+</html>
